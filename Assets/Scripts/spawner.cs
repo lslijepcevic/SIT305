@@ -21,7 +21,7 @@ public class spawner : MonoBehaviour
         if (Time.time > nextSpawn)
         {
             nextSpawn = Time.time + spawnRate;
-            whereToSpawn = new Vector2 (11.0f, 0.08f);
+            whereToSpawn = new Vector2 (6.0f, 0.08f);
             Instantiate(Enemy, whereToSpawn, Quaternion.identity);
         }
     }

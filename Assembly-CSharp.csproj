@@ -62,6 +62,9 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\Destroyer.cs" />
     <Compile Include="Assets\Scripts\Enemy.cs" />
+    <Compile Include="Assets\Scripts\floor.cs" />
+    <Compile Include="Assets\Scripts\GroundCheck.cs" />
+    <Compile Include="Assets\Scripts\Hero.cs" />
     <Compile Include="Assets\Scripts\spawner.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/leonslijepcevic/Documents/Unity Projects/SIT305-game/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>

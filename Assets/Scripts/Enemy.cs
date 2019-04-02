@@ -6,8 +6,6 @@ public class Enemy : MonoBehaviour
 {
     private float inputDirection;
     private int health = 1;
-    private float speed = -1f;
-
 
 
     // Use this for initialization
